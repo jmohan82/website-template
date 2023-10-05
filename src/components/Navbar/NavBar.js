@@ -26,9 +26,7 @@ const NavBar = () => {
       <div className="flex flex-row justify-between items-center py-2">
         <div className="flex flex-row justify-center md:px-11 md:mx-11 items-center text-center font-semibold">
           <Link to="/#">
-            <h1 className="font-extrabold text-3xl text-blue-900">
-              Kloud Waves
-            </h1>
+            <h1 className="font-extrabold text-3xl text-blue-900">KW</h1>
           </Link>
         </div>
         <div className="group flex flex-col items-center">
