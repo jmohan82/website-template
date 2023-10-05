@@ -30,7 +30,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     document.getElementById("submitBtn").disabled = true;
-    document.getElementById("submitBtn").innerHTML = "Loading...";
+    document.getElementById("submitBtn").innerHTML = "Sending message...";
     emailjs
       .sendForm(
         "service_kloudwaves",
