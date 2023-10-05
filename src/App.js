@@ -1,19 +1,15 @@
-import React, { useEffect } from 'react';
-import AOS from 'aos';
+import React, { useEffect } from "react";
+import AOS from "aos";
 import "aos/dist/aos.css";
-import './index.css';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route
-} from 'react-router-dom';
+import "./index.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // All pages
-import Home from './pages/Home';
-import Contact from './pages/Contact';
-import DemoProduct from './pages/DemoProduct';
-
-import {useDocTitle} from './components/CustomHook';
-import ScrollToTop from './components/ScrollToTop';
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
+import DemoProduct from "./pages/DemoProduct";
+import { useDocTitle } from "./components/CustomHook";
+import Services from "./components/Services";
+import Intro from "./components/Intro";
 
 function App() {
   useEffect(() => {
@@ -21,31 +17,30 @@ function App() {
       AOS.init({
         once: true,
         duration: 1000,
-        easing: 'ease-out-cubic',
+        easing: "ease-out-cubic",
       });
-    }
+    };
 
-    window.addEventListener('load', () => {
+    window.addEventListener("load", () => {
       aos_init();
     });
   }, []);
 
-  useDocTitle("MLD | Molad e Konsult - Bespoke Web and Mobile Applications");
+  useDocTitle("KW | Kloud Waves - Bespoke Web and Mobile Applications");
 
   return (
     <>
       <Router>
-        <ScrollToTop>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/get-demo" element={<DemoProduct />} /> 
-          </Routes>
-        </ScrollToTop>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/#" element={<Intro />} />
+          <Route path="/#service" element={<Services />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/get-demo" element={<DemoProduct />} />
+        </Routes>
       </Router>
     </>
   );
 }
-
 
 export default App;
