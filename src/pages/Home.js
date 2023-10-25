@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Intro from "../components/Intro";
 import Services from "../components/Services";
+import PlayBook from "../components/Playbook/PlayBook";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Hero />
       <Intro />
       <Services />
+      <PlayBook />
       <Cta />
       <Footer />
     </>

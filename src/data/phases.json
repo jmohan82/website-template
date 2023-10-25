@@ -1,0 +1,19 @@
+{
+  "Phases": [
+    {
+      "id": 1,
+      "name": "Design",
+      "description": "Before we can develop a new application, or build new features for an existing application, we must first design and prototype what will be built."
+    },
+    {
+      "id": 2,
+      "name": "Develop",
+      "description": "This is our development playbook. It outlines our methodical, scientific approach to building iOS, Android, and web apps. It's a reflection of all the things we've learned on over our projects."
+    },
+    {
+      "id": 3,
+      "name": "Maintain",
+      "description": "Once the application goes live we can provide ongoing support via a maintenance agreement and/or ongoing active development agreements."
+    }
+  ]
+}

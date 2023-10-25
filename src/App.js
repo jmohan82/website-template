@@ -10,6 +10,7 @@ import DemoProduct from "./pages/DemoProduct";
 import { useDocTitle } from "./components/CustomHook";
 import Services from "./components/Services";
 import Intro from "./components/Intro";
+import Playbook from "./pages/Playbook";
 
 function App() {
   useEffect(() => {
@@ -37,6 +38,7 @@ function App() {
           <Route path="/#service" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/get-demo" element={<DemoProduct />} />
+          <Route path="/playbook" element={<Playbook />} />
         </Routes>
       </Router>
     </>

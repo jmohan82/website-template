@@ -7,7 +7,7 @@ import axios from "axios";
 import Notiflix from "notiflix";
 
 const DemoProduct = (props) => {
-  useDocTitle("Kloud Waves - Demo our products");
+  useDocTitle("KW | Kloud Waves - Demo our products");
 
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");

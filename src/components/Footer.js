@@ -56,8 +56,9 @@ const Footer = () => {
             {/* 3rd block */}
             <div className="col-span-6 md:col-span-6 lg:col-span-4 mx-auto">
               <h6 className="text-[#013289] text-xl font-bold mb-4">
-                OUR SERVICES
+                SERVICES
               </h6>
+
               <ul className="text-md">
                 <li className="mb-2">
                   <HashLink

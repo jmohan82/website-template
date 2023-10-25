@@ -3,6 +3,7 @@ import img from "../images/web.svg";
 import img2 from "../images/app.svg";
 import img3 from "../images/hosting.svg";
 import img4 from "../images/consultation.svg";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -30,6 +31,7 @@ const Services = () => {
                   className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
                   src={img}
                 />
+
                 <h2 className="font-semibold my-4 text-2xl text-center">
                   Web Development
                 </h2>
@@ -49,6 +51,7 @@ const Services = () => {
                   className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
                   src={img2}
                 />
+
                 <h2 className="font-semibold my-4 text-2xl text-center">
                   Mobile App Development
                 </h2>
@@ -67,6 +70,7 @@ const Services = () => {
                   className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
                   src={img3}
                 />
+
                 <h2 className="font-semibold my-4 text-2xl text-center ">
                   Domain and Hosting Services
                 </h2>
@@ -85,6 +89,7 @@ const Services = () => {
                   className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
                   src={img4}
                 />
+
                 <h2 className="font-semibold my-4 text-2xl text-center ">
                   General IT Consultations
                 </h2>
